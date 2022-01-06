@@ -8,7 +8,7 @@ There should be no necessary libraries to run the code here beyond the *Anaconda
 ## Project Motivation
 This project to complete udacity Data Scientist Nanodegree capstone project I've chosen Starbucks data that mimics customer behavior on the Starbucks rewards mobile app, and build a model to predict the preferred offer by the clients.
 
-We are interested to answer the following 6 questions:
+I'm interested to answer the following 6 questions:
 
 *1. What is the Age Distribution of Starbucks Customers?*
 
