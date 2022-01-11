@@ -6,9 +6,11 @@ You can read my Medium Blog Post in [Udacity Data Science Project](https://mediu
 ## Installation
 There should be no necessary libraries to run the code here beyond the *Anaconda* distribution of Python. The code should run with no issues using *Python versions 3.x*.
 ## Project Motivation
-This project to complete udacity Data Scientist Nanodegree capstone project I've chosen Starbucks data that mimics customer behavior on the Starbucks rewards mobile app, and build a model to predict the preferred offer by the clients.
+The goal of this project is to combine transaction, demographic, and offer data to determine which demographic groups respond best to which offer type. This dataset is a simplified version of the real Starbucks app because the underlying simulator only has one product whereas Starbucks sells dozens of products.
 
-I'm interested to answer the following 6 questions:
+The process of our analysis will be by the following step: Define our question, understanding the Datasets, Data preparation and wrangling, analyze the data, model the data, compare model performance, and finally selecting one model.
+
+The problem statement I am aiming to answer are :
 
 *1. What is the Age Distribution of Starbucks Customers?*
 
@@ -21,6 +23,9 @@ I'm interested to answer the following 6 questions:
 *5. How long did the users become members?*
 
 *6. Predict the preferred offer for the customer*
+
+Using the data provided (portfolio, profile, Transactional), I answer question 1~5 using charts and I answer the question 6 using 6 classification models.
+
 ## File Descriptions
 `Starbucks_Capstone_notebook.ipynb` - the notebook available here showcases work related to the above questions.
 
@@ -55,20 +60,10 @@ Here is the schema and explanation of each variable in the files:
 - person (str) - customer id
 - time (int) - time in hours since the start of the test. The data begins at time t=0
 - value - (dict of strings) - either an offer id or transaction amount depending on the record
-## Results
-The highest number of customers are between 50–60, aslo it’s a normal distribution.
 
-The majority of the income is between 50000–70000 by average (65404), and it’s a right skewed distribution.
+## Analysis
+Simple Analysis for the problem is provider in this [article](https://medium.com/@akikhoa/analyzing-starbucks-data-fc9cf89c1fe6).]
 
-Men consume Starbucks products more than women.
-
-Members of the Starbucks increased exponentially from 2013 and reached its highest in 2017(over 5000 members) which later declines steadily.
-
-Average of days after which users can become members is 1781 days.
-
-The highest of all models here was SVC by (0.89) for discount offer training. And the lowest of all models here was KNeighborsClassifier Model by (0.60) for bogo training.
-
-Discount and BOGO increase the customer buy rating.
 ## Licensing, Authors, Acknowledgements
 1. Udacity for providing such a complete Data Science Nanodegree Program
 2. Starbucks for providing the datasets
