@@ -62,7 +62,7 @@ Here is the schema and explanation of each variable in the files:
 - value - (dict of strings) - either an offer id or transaction amount depending on the record
 
 ## Analysis
-Simple Analysis for the problem is provider in this [article](https://medium.com/@akikhoa/analyzing-starbucks-data-fc9cf89c1fe6).]
+Analysis for the problem is provider in this [article](https://medium.com/@akikhoa/analyzing-starbucks-data-fc9cf89c1fe6).
 
 ## Licensing, Authors, Acknowledgements
 1. Udacity for providing such a complete Data Science Nanodegree Program
